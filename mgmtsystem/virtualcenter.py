@@ -3,6 +3,7 @@
 
 Used to communicate with providers without using CFME facilities
 """
+# TEST DO NOT MERGE THIS.
 try:
     # In Fedora 22, we see SSL errors when connecting to vSphere, this prevents the error.
     import ssl
